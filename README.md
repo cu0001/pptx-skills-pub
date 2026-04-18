@@ -439,6 +439,11 @@ Bob のチャット欄に話しかけるだけです。
 - **スキルが起動しない**: `Advanced モード` か確認してください。
 - **モジュールエラー**: `npm install` を再実行してください。
 - **ファイルが破損している**: `ThemeEngine.js` のログを確認し、不正な色コードや負の数値パラメータがないか確認してください。
+- **レンダラーエラー（`Cannot read properties of undefined`）**: 各レンダラーは特定のJSONスキーマを期待します。以下を確認してください：
+  - `OverviewRenderer`: `mainKeyword`（必須）と`summaryItems`（オブジェクト配列）
+  - `TwoColumnRenderer`: `leftSection`/`rightSection`（`leftContent`ではない）で、各セクションは`heading`と`text`（文字列）
+  - `FeatureListRenderer`: `features`（オブジェクト配列）
+  - 詳細は `.bob/skills/pptx-generator/SKILL.md` の「レンダラー使用時の重要な注意事項」を参照
 
 ---
 

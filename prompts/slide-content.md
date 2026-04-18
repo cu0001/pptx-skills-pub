@@ -11,6 +11,39 @@
 
 **重要: コードや説明文は一切出力しないこと。JSONのみを出力すること。**
 
+## ⚠️ 必須：スキーマ厳守ルール
+
+各レンダラーは特定のフィールド名とデータ型を期待します。以下のルールを厳守してください：
+
+1. **OverviewRenderer**: `mainKeyword`（文字列）は必須。`summaryItems`は必ずオブジェクト配列 `[{text: "..."}]`
+2. **TwoColumnRenderer**: `leftSection`/`rightSection`（`leftContent`/`rightContent`ではない）。各セクションは`heading`（文字列）と`text`（文字列、改行は`\n`）
+3. **FeatureListRenderer**: `features`は必ずオブジェクト配列 `[{icon, title, description}]`
+4. **FlowRenderer**: `steps`は必ずオブジェクト配列 `[{number, title, description}]`
+5. **TimelineRenderer**: `events`は必ずオブジェクト配列 `[{date, title, description}]`
+6. **ComparisonRenderer**: `leftColumn`/`rightColumn`の`items`は文字列配列 `["項目1", "項目2"]`
+7. **DataChartRenderer**: `kpiCards`は必ずオブジェクト配列 `[{label, value, unit}]`
+
+**間違った例（動作しない）:**
+```javascript
+// ❌ summaryItems が文字列配列
+summaryItems: ["項目1", "項目2"]
+
+// ❌ leftContent という名前（正しくは leftSection）
+leftContent: { heading: "...", items: [...] }
+
+// ❌ items 配列（正しくは text 文字列）
+leftSection: { heading: "...", items: [{text: "..."}] }
+```
+
+**正しい例:**
+```javascript
+// ✅ summaryItems がオブジェクト配列
+summaryItems: [{text: "項目1"}, {text: "項目2"}]
+
+// ✅ leftSection という名前で text 文字列
+leftSection: { heading: "...", text: "項目1\n項目2" }
+```
+
 ---
 
 ## スライドタイプ別の出力形式

@@ -121,6 +121,110 @@ async function main() {
 main().catch(console.error);
 ```
 
+**⚠️ レンダラー使用時の重要な注意事項:**
+
+各レンダラーは特定のJSONスキーマを期待します。以下の形式を厳守してください：
+
+**OverviewRenderer:**
+```javascript
+renderOverview(builder, {
+  title: 'スライドタイトル',
+  mainKeyword: '大見出し（必須）',  // 左側の大きなキーワード
+  keywordSub: '補足テキスト（オプション）',
+  summaryItems: [  // 必ずオブジェクト配列
+    { text: '項目1' },
+    { text: '項目2' }
+  ]
+});
+```
+
+**TwoColumnRenderer:**
+```javascript
+renderTwoColumn(builder, {
+  title: 'スライドタイトル',
+  leftSection: {  // leftContent ではなく leftSection
+    heading: '左カラムの見出し',
+    text: '説明文（改行は\\nで）'  // items配列ではなくtext文字列
+  },
+  rightSection: {  // rightContent ではなく rightSection
+    heading: '右カラムの見出し',
+    text: '説明文（改行は\\nで）'
+  }
+});
+```
+
+**FeatureListRenderer:**
+```javascript
+renderFeatureList(builder, {
+  title: 'スライドタイトル',
+  features: [  // 必ずオブジェクト配列
+    {
+      icon: '💬',
+      title: '機能名',
+      description: '説明文'
+    }
+  ]
+});
+```
+
+**FlowRenderer:**
+```javascript
+renderFlow(builder, {
+  title: 'スライドタイトル',
+  steps: [  // 必ずオブジェクト配列
+    {
+      number: '1',
+      title: 'ステップ名',
+      description: '説明文'
+    }
+  ]
+});
+```
+
+**TimelineRenderer:**
+```javascript
+renderTimeline(builder, {
+  title: 'スライドタイトル',
+  events: [  // 必ずオブジェクト配列
+    {
+      date: 'Phase 1',
+      title: 'イベント名',
+      description: '説明文'
+    }
+  ]
+});
+```
+
+**ComparisonRenderer:**
+```javascript
+renderComparison(builder, {
+  title: 'スライドタイトル',
+  leftColumn: {
+    heading: '左カラムの見出し',
+    items: ['項目1', '項目2']  // 文字列配列
+  },
+  rightColumn: {
+    heading: '右カラムの見出し',
+    items: ['項目1', '項目2']  // 文字列配列
+  },
+  insight: '下部の洞察テキスト（オプション）'
+});
+```
+
+**DataChartRenderer:**
+```javascript
+renderDataChart(builder, {
+  title: 'スライドタイトル',
+  kpiCards: [  // 必ずオブジェクト配列
+    {
+      label: 'ラベル',
+      value: '値',
+      unit: '単位'
+    }
+  ]
+});
+```
+
 **⚠️ PptxGenJS 重要ルール:**
 - オプションオブジェクトを再利用しない（PptxGenJSがEMU値に書き換えるため）
   → `makeShadow = () => ({...})` のようにファクトリ関数で毎回新規生成すること
