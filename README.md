@@ -1,4 +1,4 @@
-# pptx-skill: PowerPoint スライド生成スキル
+# pptx-generator: PowerPoint スライド生成スキル
 
 > **IBM Bob 向けセットアップガイド**  
 > 自然言語のデザイン指示から PowerPoint（.pptx）ファイルを自動生成する IBM Bob 向けスキルライブラリです。  
