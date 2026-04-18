@@ -1,0 +1,67 @@
+{
+  "id": "terracotta-earth",
+  "name": "Warm Terra / 暖色アース",
+  "description": "暖かみのある土色・テラコッタ・サンドトーンを使った食品・ライフスタイル向けテーマ。温もりと親しみやすさを表現する。",
+
+  "colors": {
+    "background": "FDF6F0",
+    "surface": "F5EDE3",
+    "primary": "C45C2E",
+    "secondary": "8B6914",
+    "text": "2C1810",
+    "textMuted": "7D5A4A",
+    "border": "DEC5B0",
+    "highlight": "D97706"
+  },
+
+  "typography": {
+    "fontTitle": "Georgia",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 36,
+    "sizeTitleMedium": 26,
+    "sizeBody": 15,
+    "sizeSmall": 11
+  },
+
+  "shapes": {
+    "style": "shadowed",
+    "cornerRadius": 0.15,
+    "borderWidth": 0,
+    "borderDash": "none",
+    "borderTransparency": 100,
+    "decorations": "none",
+    "shadow": {
+      "enabled": true,
+      "type": "outer",
+      "color": "C45C2E",
+      "blur": 8,
+      "offset": 2,
+      "angle": 135,
+      "opacity": 0.12
+    }
+  },
+
+  "layout": {
+    "margin": 0.55,
+    "gutterV": 0.3,
+    "gutterH": 0.4,
+    "accentBarWidth": 0.08,
+    "headerStyle": "none"
+  },
+
+  "chart": {
+    "colors": ["C45C2E", "8B6914", "E88A5A", "D97706", "A3765A", "6B4226"],
+    "gridStyle": "subtle",
+    "roundedCorners": true
+  },
+
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+
+  "tone": {
+    "keywords": ["温もり", "食品", "アース", "ライフスタイル", "オーガニック"],
+    "formality": "casual",
+    "industry": ["food", "retail", "wellness", "general"]
+  }
+}

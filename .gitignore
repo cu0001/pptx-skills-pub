@@ -1,0 +1,31 @@
+node_modules/
+.DS_Store
+output/
+scripts/output/
+masters/unpacked/
+*.pptx
+*.pdf
+*.jpg
+*.jpeg
+*.log
+
+# エディタ・プロジェクト設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 環境変数
+.env
+.env.local

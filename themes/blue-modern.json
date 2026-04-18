@@ -1,0 +1,67 @@
+{
+  "id": "blue-modern",
+  "name": "Blue Modern / Corporate Clean",
+  "description": "シャドウなしのフラットデザイン。IT企業・スタートアップ向けのクリーンなビジネス資料スタイル。明度差で情報の主従を表現する。",
+
+  "colors": {
+    "background": "F8FAFC",
+    "surface": "FFFFFF",
+    "primary": "0284C7",
+    "secondary": "38BDF8",
+    "text": "1E293B",
+    "textMuted": "64748B",
+    "border": "E2E8F0",
+    "highlight": "F59E0B"
+  },
+
+  "typography": {
+    "fontTitle": "Calibri",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 36,
+    "sizeTitleMedium": 24,
+    "sizeBody": 16,
+    "sizeSmall": 11
+  },
+
+  "shapes": {
+    "style": "flat",
+    "cornerRadius": 0.1,
+    "borderWidth": 0,
+    "borderDash": "none",
+    "borderTransparency": 100,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false,
+      "type": "outer",
+      "color": "000000",
+      "blur": 0,
+      "offset": 0,
+      "angle": 135,
+      "opacity": 0
+    }
+  },
+
+  "layout": {
+    "margin": 0.5,
+    "gutterV": 0.25,
+    "gutterH": 0.35,
+    "accentBarWidth": 0.06,
+    "headerStyle": "none"
+  },
+
+  "chart": {
+    "colors": ["0284C7", "38BDF8", "7DD3FC", "BAE6FD", "0369A1", "7C3AED"],
+    "gridStyle": "subtle",
+    "roundedCorners": true
+  },
+
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+
+  "tone": {
+    "keywords": ["クリーン", "モダン", "IT", "スタートアップ", "シンプル"],
+    "formality": "business",
+    "industry": ["tech", "general"]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "ThemeToken スキーマ定義 v1.0",
+  "$description": "LLMはこのスキーマに従って ThemeToken JSON を出力すること。PptxGenJSの制約（#なし色コード、非負のshadow offset等）を厳守。",
+
+  "id": "string (例: chalkboard, blue-modern, cyber-neon)",
+  "name": "string (表示名 例: Chalkboard / Hand-drawn)",
+  "description": "string (テーマの説明)",
+
+  "colors": {
+    "$note": "全色コードは6文字のHEX。'#'は絶対に含めない。例: '2E8B57' ✅  '#2E8B57' ❌",
+    "background": "string (スライド背景色)",
+    "backgroundGradient": {
+      "enabled": "boolean",
+      "color1": "string (HEX)",
+      "color2": "string (HEX)",
+      "angle": "number (0-359)"
+    },
+    "surface": "string (カード・ボックス等の背景色)",
+    "primary": "string (主要アクセントカラー。見出し・強調)",
+    "secondary": "string (サブアクセントカラー)",
+    "text": "string (本文テキスト色)",
+    "textMuted": "string (補足・注記テキスト色)",
+    "border": "string (枠線の色)",
+    "highlight": "string (コールアウト・重要数字の強調色。'#'なし HEX)"
+  },
+
+  "typography": {
+    "$note": "fontFaceはクロスプラットフォーム安全フォントのみ使用。Win/Mac両対応。",
+    "$safeFonts": ["Arial", "Calibri", "Georgia", "Trebuchet MS", "Comic Sans MS", "Courier New", "Meiryo", "Yu Gothic", "Hiragino Sans", "MS Gothic"],
+    "fontTitle": "string (見出しフォント。上記リストから選択)",
+    "fontBody": "string (本文フォント。上記リストから選択)",
+    "sizeTitleLarge": "number (大見出しのフォントサイズ pt 例: 40)",
+    "sizeTitleMedium": "number (中見出しのフォントサイズ pt 例: 28)",
+    "sizeBody": "number (本文のフォントサイズ pt 例: 18)",
+    "sizeSmall": "number (小文字・注記サイズ pt 例: 12)"
+  },
+
+  "shapes": {
+    "style": "string (enum: 'flat' | 'outlined' | 'shadowed' | 'chalky' | 'neon')",
+    "cornerRadius": "number (角丸の半径 0〜0.3インチ。0=直角, 0.1=控えめな角丸)",
+    "borderWidth": "number (枠線の太さ pt 例: 1.5)",
+    "borderDash": "string (enum: 'solid' | 'dash' | 'dot' | 'dashDot' | 'none')",
+    "borderTransparency": "number (枠線の透過度 0〜100)",
+    "shadow": {
+      "$note": "offsetは必ず非負の値。負の値はファイル破損の原因。",
+      "enabled": "boolean",
+      "type": "string (enum: 'outer' | 'inner')",
+      "color": "string (6文字HEX。'#'なし)",
+      "blur": "number (0〜100)",
+      "offset": "number (0以上。負の値は禁止)",
+      "angle": "number (0〜359。270=上方向に影)",
+      "opacity": "number (0.0〜1.0)"
+    },
+    "decorations": "string (enum: 'none' | 'dots' | 'circles' | 'triangles' などの装飾パターン)"
+  },
+
+  "layout": {
+    "margin": "number (スライド端からのマージン インチ 例: 0.5)",
+    "gutterV": "number (垂直方向の要素間隔 インチ 例: 0.3)",
+    "gutterH": "number (水平方向の要素間隔 インチ 例: 0.4)",
+    "accentBarWidth": "number (アクセントバーの幅 インチ 例: 0.08)",
+    "headerStyle": "string (enum: 'none' | 'underline' | 'solidBar')"
+  },
+
+  "chart": {
+    "colors": "array of string (チャート系列の色。'#'なし HEX。最低6色を推奨)",
+    "gridStyle": "string (enum: 'subtle' | 'none' | 'normal')",
+    "roundedCorners": "boolean"
+  },
+
+  "slideTypes": {
+    "$note": "このテーマでサポートするスライドタイプ",
+    "available": "array of string (enum: 'title' | 'overview' | 'comparison' | 'data' | 'flow')"
+  },
+
+  "tone": {
+    "keywords": "array of string (トーンキーワード 例: ['教育', 'カフェ', '温もり'])",
+    "formality": "string (enum: 'casual' | 'formal' | 'business' | 'creative')",
+    "industry": "array of string (業種タグ 例: ['tech', 'education', 'finance', 'sustainability', 'retail', 'food', 'travel', 'wellness', 'hospitality', 'gaming', 'creative', 'general'])"
+  }
+}

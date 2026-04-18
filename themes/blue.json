@@ -1,0 +1,60 @@
+{
+  "id": "blue",
+  "name": "Blue / Corporate Trust",
+  "description": "Blue を基調にした信頼感のあるコーポレートテーマ。明快な階層、安定した余白、落ち着いたコントラストで技術説明資料に適したデザイン。",
+  "colors": {
+    "background": "FFFFFF",
+    "surface": "F4F4F4",
+    "primary": "0F62FE",
+    "secondary": "161616",
+    "text": "161616",
+    "textMuted": "525252",
+    "border": "DDE1E6",
+    "highlight": "FF832B"
+  },
+  "typography": {
+    "fontTitle": "Calibri",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 32,
+    "sizeTitleMedium": 26,
+    "sizeBody": 16,
+    "sizeSmall": 11
+  },
+  "shapes": {
+    "style": "flat",
+    "cornerRadius": 0.04,
+    "borderWidth": 0.5,
+    "borderDash": "solid",
+    "borderTransparency": 10,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false,
+      "type": "outer",
+      "color": "000000",
+      "blur": 0,
+      "offset": 0,
+      "angle": 135,
+      "opacity": 0
+    }
+  },
+  "layout": {
+    "margin": 0.55,
+    "gutterV": 0.28,
+    "gutterH": 0.4,
+    "accentBarWidth": 0.06,
+    "headerStyle": "none"
+  },
+  "chart": {
+    "colors": ["0F62FE", "42BE65", "8A3FFC", "FF832B", "525252", "08BDBA"],
+    "gridStyle": "subtle",
+    "roundedCorners": false
+  },
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+  "tone": {
+    "keywords": ["信頼", "明快", "技術", "企業", "整然"],
+    "formality": "business",
+    "industry": ["tech", "finance", "general"]
+  }
+}

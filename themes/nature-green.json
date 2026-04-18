@@ -1,0 +1,66 @@
+{
+  "id": "nature-green",
+  "name": "Eco Nature",
+  "description": "自然や環境を想起させる、緑とアースカラーを中心としたオーガニックなテーマ。",
+  "colors": {
+    "background": "F9F8F4",
+    "backgroundGradient": {
+      "enabled": true,
+      "color1": "558B2F",
+      "color2": "FFFFFF",
+      "angle": 135
+    },
+    "surface": "FFFFFF",
+    "primary": "2E7D32",
+    "secondary": "827717",
+    "text": "1B2E1E",
+    "textMuted": "5D6B5D",
+    "border": "C8E6C9",
+    "highlight": "F59E0B"
+  },
+  "typography": {
+    "fontTitle": "Georgia",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 34,
+    "sizeTitleMedium": 24,
+    "sizeBody": 15,
+    "sizeSmall": 11
+  },
+  "shapes": {
+    "style": "flat",
+    "cornerRadius": 0.15,
+    "borderWidth": 0,
+    "borderDash": "none",
+    "borderTransparency": 100,
+    "decorations": "circles",
+    "shadow": {
+      "enabled": true,
+      "type": "outer",
+      "color": "2E7D32",
+      "blur": 8,
+      "offset": 1.5,
+      "angle": 135,
+      "opacity": 0.08
+    }
+  },
+  "layout": {
+    "margin": 0.5,
+    "gutterV": 0.3,
+    "gutterH": 0.4,
+    "accentBarWidth": 0.1,
+    "headerStyle": "none"
+  },
+  "chart": {
+    "colors": ["2E7D32", "8D6E63", "81C784", "CDDC39", "FFB74D", "4CAF50"],
+    "gridStyle": "subtle",
+    "roundedCorners": true
+  },
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+  "tone": {
+    "keywords": ["環境", "自然", "オーガニック", "安心感"],
+    "formality": "casual",
+    "industry": ["sustainability", "food", "general"]
+  }
+}

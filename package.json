@@ -1,0 +1,12 @@
+{
+  "name": "pptx-skill",
+  "version": "1.0.0",
+  "description": "デザインプロンプトからPowerPointを生成するスキルライブラリ",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node scripts/demo-all.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}

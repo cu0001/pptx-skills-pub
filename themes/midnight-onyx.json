@@ -1,0 +1,63 @@
+{
+  "id": "midnight-onyx",
+  "name": "Midnight Onyx",
+  "description": "漆黒の背景にプラチナとガングレーを配した、究極のミニマリズムと静寂を感じさせる洗練されたプレミアムテーマ。",
+  "colors": {
+    "background": "050505",
+    "backgroundGradient": {
+      "enabled": false
+    },
+    "surface": "121212",
+    "primary": "D4D4D4",
+    "secondary": "525252",
+    "text": "FFFFFF",
+    "textMuted": "888888",
+    "border": "262626",
+    "highlight": "FFFFFF"
+  },
+  "typography": {
+    "fontTitle": "Georgia",
+    "fontBody": "Helvetica",
+    "sizeTitleLarge": 36,
+    "sizeTitleMedium": 26,
+    "sizeBody": 14,
+    "sizeSmall": 10
+  },
+  "shapes": {
+    "style": "outlined",
+    "cornerRadius": 0,
+    "borderWidth": 0.5,
+    "borderDash": "solid",
+    "borderTransparency": 20,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false,
+      "type": "outer",
+      "color": "000000",
+      "blur": 15,
+      "offset": 4,
+      "angle": 135,
+      "opacity": 0.3
+    }
+  },
+  "layout": {
+    "margin": 0.5,
+    "gutterV": 0.35,
+    "gutterH": 0.45,
+    "accentBarWidth": 0.02,
+    "headerStyle": "underline"
+  },
+  "chart": {
+    "colors": ["E5E5E5", "A3A3A3", "525252", "262626", "171717", "0A0A0A"],
+    "gridStyle": "subtle",
+    "roundedCorners": false
+  },
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data"]
+  },
+  "tone": {
+    "keywords": ["洗練", "静寂", "本質", "ミニマリズム", "プロフェッショナル"],
+    "formality": "formal",
+    "industry": ["tech", "luxury", "consulting", "architecture"]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dusty-purple",
+  "name": "Dusty Purple",
+  "description": "くすみ紫系でまとめたテーマ。ラベンダー・モーブ・プラムのトーンが落ち着いた上品さを演出します。繊細で洗練された印象を与えるアースパープルカラーです。",
+  "colors": {
+    "background": "FCFBFE",
+    "surface": "FAF8FC",
+    "primary": "7B5EA7",
+    "secondary": "A08ABE",
+    "text": "2D1F3D",
+    "textMuted": "7A6E8C",
+    "border": "D9D0E8",
+    "highlight": "C4A0C8"
+  },
+  "typography": {
+    "fontTitle": "Outfit, Trebuchet MS, Segoe UI, Meiryo",
+    "fontBody": "Inter, Meiryo",
+    "sizeTitleLarge": 38,
+    "sizeTitleMedium": 26,
+    "sizeBody": 17,
+    "sizeSmall": 12
+  },
+  "shapes": {
+    "style": "shadowed",
+    "cornerRadius": 0.2,
+    "borderWidth": 1.2,
+    "borderDash": "solid",
+    "borderTransparency": 20,
+    "decorations": "none",
+    "shadow": {
+      "enabled": true,
+      "type": "outer",
+      "color": "2D1F3D",
+      "blur": 5,
+      "offset": 1.5,
+      "angle": 135,
+      "opacity": 0.1
+    }
+  },
+  "layout": {
+    "margin": 0.55,
+    "gutterV": 0.28,
+    "gutterH": 0.4,
+    "accentBarWidth": 0.12,
+    "headerStyle": "none"
+  },
+  "chart": {
+    "colors": ["7B5EA7", "A08ABE", "C4A0C8", "5C4580", "B89BC8", "7A6E8C"],
+    "gridStyle": "subtle",
+    "roundedCorners": true
+  },
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+  "tone": {
+    "keywords": ["ラベンダー", "上品", "くすみ紫", "繊細", "モーブ"],
+    "formality": "casual",
+    "industry": ["lifestyle", "general", "wellness"]
+  }
+}

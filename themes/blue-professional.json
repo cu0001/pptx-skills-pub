@@ -1,0 +1,60 @@
+{
+  "id": "blue-professional",
+  "name": "Product Intro / Trustworthy Clean",
+  "description": "プロダクト紹介向けのクリーンで信頼感あるビジネス資料スタイル。余白と整列を重視し、価値訴求を穏やかに際立たせる。",
+  "colors": {
+    "background": "FFFFFF",
+    "surface": "F8FAFC",
+    "primary": "4F46E5",
+    "secondary": "10B981",
+    "text": "2D3748",
+    "textMuted": "718096",
+    "border": "E2E8F0",
+    "highlight": "F59E0B"
+  },
+  "typography": {
+    "fontTitle": "Arial",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 38,
+    "sizeTitleMedium": 26,
+    "sizeBody": 16,
+    "sizeSmall": 11
+  },
+  "shapes": {
+    "style": "flat",
+    "cornerRadius": 0.12,
+    "borderWidth": 0.5,
+    "borderDash": "solid",
+    "borderTransparency": 15,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false,
+      "type": "outer",
+      "color": "000000",
+      "blur": 0,
+      "offset": 0,
+      "angle": 135,
+      "opacity": 0
+    }
+  },
+  "layout": {
+    "margin": 0.55,
+    "gutterV": 0.28,
+    "gutterH": 0.4,
+    "accentBarWidth": 0.06,
+    "headerStyle": "none"
+  },
+  "chart": {
+    "colors": ["4F46E5", "10B981", "818CF8", "6EE7B7", "CBD5E0", "F59E0B"],
+    "gridStyle": "subtle",
+    "roundedCorners": true
+  },
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+  "tone": {
+    "keywords": ["明快", "信頼", "クリーン", "直感的", "価値提案"],
+    "formality": "business",
+    "industry": ["tech", "retail", "general"]
+  }
+}

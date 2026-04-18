@@ -1,0 +1,67 @@
+{
+  "id": "navy-beige",
+  "name": "Japan Zen / 和 / Wabi-Sabi",
+  "description": "墨・藍・白を基調とした和風禅スタイルのテーマ。伝統・文化・観光・日本企業向け。余白（間）と静けさを重視する。",
+
+  "colors": {
+    "background": "F5F0E8",
+    "surface": "EDE8DC",
+    "primary": "1A3A5C",
+    "secondary": "8B4513",
+    "text": "1A1A1A",
+    "textMuted": "5C5047",
+    "border": "C4B89A",
+    "highlight": "C0392B"
+  },
+
+  "typography": {
+    "fontTitle": "Georgia",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 36,
+    "sizeTitleMedium": 26,
+    "sizeBody": 15,
+    "sizeSmall": 11
+  },
+
+  "shapes": {
+    "style": "outlined",
+    "cornerRadius": 0,
+    "borderWidth": 1,
+    "borderDash": "solid",
+    "borderTransparency": 10,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false,
+      "type": "outer",
+      "color": "000000",
+      "blur": 0,
+      "offset": 0,
+      "angle": 135,
+      "opacity": 0
+    }
+  },
+
+  "layout": {
+    "margin": 0.6,
+    "gutterV": 0.4,
+    "gutterH": 0.5,
+    "accentBarWidth": 0.06,
+    "headerStyle": "underline"
+  },
+
+  "chart": {
+    "colors": ["1A3A5C", "8B4513", "2E7D32", "C0392B", "5C5047", "B8860B"],
+    "gridStyle": "subtle",
+    "roundedCorners": false
+  },
+
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+
+  "tone": {
+    "keywords": ["和風", "禅", "伝統", "落ち着き", "文化", "観光"],
+    "formality": "formal",
+    "industry": ["travel", "hospitality", "general"]
+  }
+}

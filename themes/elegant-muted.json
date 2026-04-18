@@ -1,0 +1,61 @@
+{
+  "id": "elegant-muted",
+  "name": "Elegant Muted / 上品なくすみ暖色",
+  "description": "落ち着いたダスティローズとグレージュを基調とした、洗練された大人の雰囲気を持つテーマ。ビューティー、ブライダル、ライフスタイルブランドなどに適している。",
+
+  "colors": {
+    "background": "FAF7F5",
+    "surface": "F2EAE4",
+    "primary": "B08B81",
+    "secondary": "A69D92",
+    "text": "3D3735",
+    "textMuted": "827773",
+    "border": "D9CEC7",
+    "highlight": "C99B8F"
+  },
+
+  "typography": {
+    "fontTitle": "Palatino, 'Hiragino Mincho ProN', serif",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 34,
+    "sizeTitleMedium": 24,
+    "sizeBody": 15,
+    "sizeSmall": 11
+  },
+
+  "shapes": {
+    "style": "clean",
+    "cornerRadius": 0.2,
+    "borderWidth": 1,
+    "borderDash": "none",
+    "borderTransparency": 20,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false
+    }
+  },
+
+  "layout": {
+    "margin": 0.6,
+    "gutterV": 0.35,
+    "gutterH": 0.45,
+    "accentBarWidth": 0.05,
+    "headerStyle": "border-bottom"
+  },
+
+  "chart": {
+    "colors": ["B08B81", "A69D92", "C99B8F", "D9CEC7", "827773", "BBA8A3"],
+    "gridStyle": "minimal",
+    "roundedCorners": true
+  },
+
+  "slideTypes": {
+    "available": ["title", "overview", "agenda", "two-column", "comparison", "data", "flow", "timeline", "feature-list", "image-text", "matrix", "team", "quote"]
+  },
+
+  "tone": {
+    "keywords": ["上品", "くすみカラー", "洗練", "エレガント", "和モダン"],
+    "formality": "formal",
+    "industry": ["lifestyle", "beauty", "luxury", "wellness"]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "chalkboard",
+  "name": "Artisan Chalkboard",
+  "description": "深みのあるスレートグリーンと柔らかなパステルカラーを組み合わせた、洗練された黒板アート風テーマ。あたたかみと知性が同居するプレミアムなデザイン。",
+
+  "colors": {
+    "background": "1F2D2A",
+    "surface": "2A3D39",
+    "primary": "E6E6E6",
+    "secondary": "A4D8D8",
+    "text": "F4F4F4",
+    "textMuted": "8BA59D",
+    "border": "F4F4F4",
+    "highlight": "FFCCBB"
+  },
+
+  "typography": {
+    "fontTitle": "Chalkboard SE, Segoe Print, Ink Free, Meiryo",
+    "fontBody": "Meiryo",
+    "sizeTitleLarge": 38,
+    "sizeTitleMedium": 26,
+    "sizeBody": 18,
+    "sizeSmall": 12
+  },
+
+  "shapes": {
+    "style": "chalky",
+    "cornerRadius": 0.02,
+    "borderWidth": 1.5,
+    "borderDash": "dash",
+    "borderTransparency": 40,
+    "decorations": "none",
+    "shadow": {
+      "enabled": false,
+      "type": "outer",
+      "color": "000000",
+      "blur": 0,
+      "offset": 0,
+      "angle": 135,
+      "opacity": 0
+    }
+  },
+
+  "layout": {
+    "margin": 0.5,
+    "gutterV": 0.3,
+    "gutterH": 0.4,
+    "accentBarWidth": 0.1,
+    "headerStyle": "none"
+  },
+
+  "chart": {
+    "colors": ["E6E6E6", "A4D8D8", "FFCCBB", "C1E1C1", "F4F4F4", "8BA59D"],
+    "gridStyle": "subtle",
+    "roundedCorners": false
+  },
+
+  "slideTypes": {
+    "available": ["title", "overview", "comparison", "data", "flow"]
+  },
+
+  "tone": {
+    "keywords": ["知性", "カフェ", "温もり", "手仕事", "プレミアム", "黒板"],
+    "formality": "casual",
+    "industry": ["education", "food", "general", "creative"]
+  }
+}
