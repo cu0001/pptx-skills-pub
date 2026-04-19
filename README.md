@@ -23,7 +23,8 @@
 13. [推奨事項](#推奨事項)
 14. [関連リソース](#関連リソース)
 15. [アンインストール](#アンインストール)
-16. [免責事項](#免責事項)
+16. [ご参考動画](#ご参考動画)
+17. [免責事項](#免責事項)
 
 ---
 
@@ -513,6 +514,8 @@ rm -f output/*.pptx scripts/generate-*.js
 ## ご参考動画
 
 * [IBM Bob カスタム・スキル 開発："pptx-generator" で PowerPoint 生成](https://youtu.be/_Az0FOfImUg?si=0lXawUnLR4bt1ym2)
+
+---
 
 ## 免責事項
 
