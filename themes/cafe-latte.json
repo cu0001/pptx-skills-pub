@@ -1,17 +1,17 @@
 {
-  "id": "elegant-muted",
-  "name": "Elegant Pink Beige / ピンクベージュ x クリーム",
-  "description": "柔らかなピンクベージュとクリーム色を基調とした、優しく上品な雰囲気のテーマ。ライフスタイル、ウェルネス、オーガニックブランドなどに最適。",
+  "id": "cafe-latte",
+  "name": "Cafe Latte / カフェ・ラテ",
+  "description": "挽きたてのコーヒー豆と温かなミルクをイメージした、落ち着きのあるブラウン＆ベージュテーマ。 Palatinoのセリフ体を使用し、洗練されたカフェのメニューのような上質な空間を演出します。",
 
   "colors": {
-    "background": "FFFDF5",
-    "surface": "FDF1E6",
-    "primary": "DBA9A0",
-    "secondary": "C2B1A8",
-    "text": "4A3F39",
-    "textMuted": "96877F",
-    "border": "EADED5",
-    "highlight": "F2CAC3"
+    "background": "FFF9F0",
+    "surface": "F3E5D8",
+    "primary": "6F4E37",
+    "secondary": "A68966",
+    "text": "3D2B1F",
+    "textMuted": "8B735B",
+    "border": "D7C4B7",
+    "highlight": "C68E17"
   },
 
   "typography": {
@@ -44,7 +44,7 @@
   },
 
   "chart": {
-    "colors": ["DBA9A0", "C2B1A8", "F2CAC3", "EADED5", "96877F", "AF9B91"],
+    "colors": ["6F4E37", "A68966", "C68E17", "D7C4B7", "8B735B", "AF9B91"],
     "gridStyle": "minimal",
     "roundedCorners": true
   },
@@ -54,9 +54,8 @@
   },
 
   "tone": {
-    "keywords": ["ピンクベージュ", "クリーム色", "上品", "優しい", "フェミニン"],
+    "keywords": ["カフェ", "ラテ", "ブラウン", "ベージュ", "上品", "温もり"],
     "formality": "formal",
-    "industry": ["lifestyle", "wellness", "natural-brands", "beauty"]
+    "industry": ["hospitality", "lifestyle", "creative", "retail"]
   }
 }
-

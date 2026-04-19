@@ -28,7 +28,7 @@ description: デザインプロンプトからPowerPointスライドを生成す
 
 ユーザーの指示からテーマを特定する。
 
-**利用可能なテーマID（全11種）:**
+**利用可能なテーマID（全12種）:**
 
 | テーマID | スタイル | 主な用途 |
 |---|---|---|
@@ -40,6 +40,7 @@ description: デザインプロンプトからPowerPointスライドを生成す
 | `navy-beige` | 紺＆生成り（和モダン） | 伝統文化・教養・和風デザイン |
 | `nature-green` | 自然・グリーン・調和 | 環境・持続可能性・オーガニック |
 | `terracotta-earth` | 温もり・アースカラー | 食品・ライフスタイル・健康 |
+| `cafe-latte` | カフェ・ラテ・温もり | カフェ・飲食店・ライフスタイル・美容 |
 | `dusty-purple` | くすみ紫・上品 | クリエイティブ・ライフスタイル・洗練 |
 | `chalkboard` | 黒板・手書き・温もり | 教育・カジュアルプレゼン |
 | `elegant-muted` | 上品なくすみ色・ウォーム | 洗練されたライフスタイル・美容・デザイン |
@@ -272,7 +273,8 @@ node scripts/generate-xxxx.js
 
 | テーマ | Primary | Secondary | Accent |
 |--------|---------|-----------|--------|
-| **Midnight Executive** | `1E2761` (navy) | `CADCFC` (ice blue) | `FFFFFF` (white) |
+| **Midnight Onyx** | `3B82F6` (blue) | `64748B` (slate) | `60A5FA` (sky) |
+| **Cafe Latte** | `6F4E37` (brown) | `A68966` (beige) | `C68E17` (gold) |
 | **Forest & Moss** | `2C5F2D` (forest) | `97BC62` (moss) | `F5F5F5` (cream) |
 | **Coral Energy** | `F96167` (coral) | `F9E795` (gold) | `2F3C7E` (navy) |
 | **Warm Terracotta** | `B85042` (terracotta) | `E7E8D1` (sand) | `A7BEAE` (sage) |

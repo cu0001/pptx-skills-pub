@@ -14,6 +14,7 @@ const midnightOnyx    = require('./midnight-onyx.json');
 const navyBeige        = require('./navy-beige.json');
 const terracottaEarth  = require('./terracotta-earth.json');
 const elegantMuted     = require('./elegant-muted.json');
+const cafeLatte        = require('./cafe-latte.json');
 
 const THEMES = {
   chalkboard,
@@ -27,6 +28,7 @@ const THEMES = {
   'navy-beige': navyBeige,
   'terracotta-earth': terracottaEarth,
   'elegant-muted': elegantMuted,
+  'cafe-latte': cafeLatte,
 };
 
 /**
