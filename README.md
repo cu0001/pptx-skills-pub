@@ -57,7 +57,7 @@
 
 ```bash
 # 1. リポジトリをクローン
-git clone <repository-url>
+git clone https://github.com/cu0001/pptx-skills-pub.git
 cd pptx-skills-pub
 
 # 2. Node.js 依存関係のインストール
