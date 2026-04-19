@@ -510,6 +510,10 @@ rm -f output/*.pptx scripts/generate-*.js
 
 ---
 
+## ご参考動画
+
+* [IBM Bob カスタム・スキル 開発："pptx-generator" で PowerPoint 生成](https://youtu.be/_Az0FOfImUg?si=0lXawUnLR4bt1ym2)
+
 ## 免責事項
 
 本スキルをご利用いただきありがとうございます。安心してお使いいただくために、以下の免責事項をご確認ください。
