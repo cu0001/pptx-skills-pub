@@ -4,6 +4,13 @@
 > 自然言語のデザイン指示から PowerPoint（.pptx）ファイルを自動生成する IBM Bob 向けスキルライブラリです。  
 > デザインプロンプトをテーマトークンに変換し、PptxGenJS でプレゼン資料を出力します。
 
+
+(ご参考動画)
+
+<a href="https://www.youtube.com/watch?v=_Az0FOfImUg" target="_blank">
+  <img src="https://img.youtube.com/vi/_Az0FOfImUg/maxresdefault.jpg" alt="IBM Bob カスタム・スキル 開発："pptx-generator" で PowerPoint 生成" width="600" />
+</a>
+
 ---
 
 ## 目次
@@ -23,8 +30,7 @@
 13. [推奨事項](#推奨事項)
 14. [関連リソース](#関連リソース)
 15. [アンインストール](#アンインストール)
-16. [ご参考動画](#ご参考動画)
-17. [免責事項](#免責事項)
+16. [免責事項](#免責事項)
 
 ---
 
@@ -511,12 +517,6 @@ rm -f output/*.pptx scripts/generate-*.js
 
 > [!NOTE]
 > `scripts/generate-*.js` は再利用・確認のために意図的に残されます。過去の生成内容を参照する必要がなくなった時点で削除してください。
-
----
-
-## ご参考動画
-
-* [IBM Bob カスタム・スキル 開発："pptx-generator" で PowerPoint 生成](https://youtu.be/_Az0FOfImUg?si=0lXawUnLR4bt1ym2)
 
 ---
 
