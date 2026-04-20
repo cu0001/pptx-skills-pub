@@ -7,9 +7,8 @@
 
 (ご参考動画: 画像をクリックすると動画のリンクに飛びます)
 
-<a href="https://www.youtube.com/watch?v=_Az0FOfImUg" target="_blank">
-  <img src="https://img.youtube.com/vi/_Az0FOfImUg/maxresdefault.jpg" alt="IBM Bob カスタム・スキル 開発："pptx-generator" で PowerPoint 生成" width="600" />
-</a>
+[![IBM Bob カスタム・スキル](https://i9.ytimg.com/vi/_Az0FOfImUg/mqdefault.jpg?v=69e61589&sqp=COysmM8G&rs=AOn4CLDjhiLSH1SLEyC34NtKHSVJljT49w)](https://www.youtube.com/watch?v=_Az0FOfImUg)
+
 
 ---
 
