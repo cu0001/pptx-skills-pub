@@ -8,8 +8,9 @@
 (ご参考動画: 画像をクリックすると動画のリンクに飛びます)
 
 <a href="https://www.youtube.com/watch?v=_Az0FOfImUg" target="_blank">
-  <img src="https://i9.ytimg.com/vi/_Az0FOfImUg/mqdefault.jpg?v=69e61589&sqp=CKz-ms8G&rs=AOn4CLCTp2-beDoVqieeOslKUcy_5LFerA" alt="IBM Bob カスタム・スキル 開発："pptx-generator" で PowerPoint 生成" width="600" />
+  <img src="./assets/samnail.jpg" alt="pptx-generator で PowerPoint 生成" width="600" />
 </a>
+
 ---
 
 ## 目次
