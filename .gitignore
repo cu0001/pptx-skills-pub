@@ -7,6 +7,9 @@ masters/unpacked/
 *.pdf
 *.jpg
 *.jpeg
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.png
 *.log
 
 # エディタ・プロジェクト設定

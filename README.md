@@ -8,7 +8,7 @@
 (ご参考動画: 画像をクリックすると動画のリンクに飛びます)
 
 <a href="https://www.youtube.com/watch?v=_Az0FOfImUg" target="_blank">
-  <img src="./assets/samnail.jpg" alt="pptx-generator で PowerPoint 生成" width="600" />
+  <img src="./assets/samnail.png" alt="pptx-generator で PowerPoint 生成" width="600" />
 </a>
 
 ---
